@@ -1,13 +1,183 @@
-.header{
-    display: flex;
-   background-color: #1f3927;
-   padding: 0;
-   margin: auto;
-   width: rgb(59, 59, 59);
-   color: whitesmoke;
+body{
+    font-family: 'Catamaran', sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+
+   /* Navbar and Header Logo */
+
+nav {
+    background-color: rgb(4, 4, 27);
+    color: whitesmoke;
+    margin: 0;
+    overflow: hidden;
 }
 
-a{
+.logo img{
+    float: left;
+    margin: 10px;
+    margin-right: 800px;
+    border: 5px solid rgb(82, 82, 247);
+    border-radius: 55px;
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: block;
+    color: whitesmoke;
     text-decoration: none;
-    color:whitesmoke
+    font-size: 20px;
+    font-weight: 900;
+    padding: 1em 2em;
+}
+
+nav ul li:first-child{ 
+    margin-right: auto;
+} 
+
+nav ul li a:hover{
+    color: tomato;
+}
+
+/* Scottish website section */
+       
+.container1 {
+    display: flex;
+    width: 100%;
+    background-color: rgb(4, 4, 27);
+    align-items: center;
+    color: whitesmoke;
+    justify-content: space-between;
+    }
+
+.container1 img {
+    margin: 100px;
+    border:8px solid rgb(82, 82, 247);
+    border-radius: 15px;
+    }
+
+.left1 {
+    margin-left: 250px;
+    }
+
+button {
+    color: whitesmoke;
+    background-color: blue;  
+    border-radius: 10px;
+    border-color: rgb(207, 207, 241);
+    padding: 2px 10px;
+    }
+
+button:hover {
+    background-color: tomato;
+    color:white;
+    }    
+
+    /* Helpful Pish section */
+
+h2 {
+    font-weight: 900;
+    text-align: center;
+}
+
+.container2 {
+    align-items: center;
+    width: 100%;
+    
+}
+
+.container2-info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}    
+
+.container2-info img {
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    border: 10px solid rgb(66, 66, 238);
+    border-radius: 20px;
+    margin: 5px 15px 0px 15px;
+}
+
+.container2-info p{
+    color:rgb(75, 72, 75);
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Quote section */
+ 
+.container3 {
+    background-color: rgb(197, 195, 201);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 300px;
+}
+
+.container3 p{
+    color: rgb(75, 72, 75);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.container3 b{
+    text-align: right;
+    font-weight: 1000;
+    color: black;
+    padding-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+/* Call to action banner */
+
+.container4 {
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    background-color: rgb(82, 82, 247);
+    padding: 10px 80px;
+    margin: 50px 200px;
+    border: 8px solid rgb(181, 166, 206) ;
+    
+}
+
+h3 {
+    color: white;
+    font-weight: bolder;
+}
+
+.banner-text {
+    text-align: left;
+    color: white;
+    padding-left: 30px;
+    padding-right: 125px;
+}
+
+.banner-button {
+   padding: 6px 20px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    background-color: rgb(4, 4, 27);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    color: whitesmoke;
 }
